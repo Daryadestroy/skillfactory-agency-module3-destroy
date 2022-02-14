@@ -377,3 +377,113 @@ margin-top: 58px;
 }
 
 
+
+/* ЧЕТВЕРТЫЙ БЛОК MEET OUR TEAM */
+.MEET-OUR-TEAM {
+margin-left: 147px;
+margin-top: 137px;
+}
+.head-our-team {
+font-size: 42px;
+word-break: break-all;
+text-transform: uppercase;
+}
+.p-our-team {
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	width: 479px;
+	margin-bottom: 38px;
+	word-break: break-all;
+}
+.hr-our-team {
+	width: 134px;
+	height: 5px;
+	background-color: #FF2D2D;
+	margin-left: 0;
+}
+/* ФОТО КОМАНДЫ */
+.lead-photos {
+margin-left: 150px;
+margin-top: 83px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 106px;
+
+}
+.team-lead {
+	width: 324px;
+	height: 460px;
+	margin-right: 72px;
+}
+.content-text {
+
+}
+.head3-mark {
+
+}
+.about-team {
+width: 663px;
+}
+.society {
+margin-top: 47px;
+}
+.society a:hover {
+text-decoration: underline;
+}
+.a-society {
+text-decoration: none;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+margin-right: 10px;
+}
+.photo-members {
+display: flex;
+flex-wrap: wrap;
+margin-left: 395px;
+margin-top: -217px;
+}
+.member {
+	width: 195px;
+	height: 217px;
+	margin-right: 15px;
+	object-fit: cover;
+}
+
+
+
+
+/* ПЯТЫЙ БЛОК FOR EMAIL */
+.for-email {
+	/* height: 516px; */
+	width: 100vw;
+	background-color: #2C2C2C;
+	padding-top: 124px;
+	padding-bottom: 140px;
+}
+.text-subscribe {
+	text-align: center;
+	justify-content: center;
+	align-items: stretch;
+	margin: 0 auto;
+	max-width: 1249px;
+}
+.head3-email {
+	color: #FFFFFF;
+	font-size: 42px;
+    line-height: 24px;
+    text-align: center;
+	margin-bottom: 30px;
+	
+}
+.p-email {
+	color: #FFFFFF;
+	line-height: 28px;
+	font-size: 16px;
+	width: 574px;
+    text-align: center;
+}
+.form-email {
+
+}
