@@ -330,11 +330,11 @@ flex-grow: 1 1 1 1;
 flex-shrink: 1 1 1 1;
 flex-basis: 640px;
 }
-@media screen and (max-width: 900px) {
-	
+/* @media screen and (max-width: 900px) {
+
 }
 	
-}
+} */
   .h3-block2 {
 font-size: 23px;
 color: #000000;
