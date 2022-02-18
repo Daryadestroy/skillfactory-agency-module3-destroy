@@ -77,7 +77,6 @@ header {
 @media screen and (max-width: 350px){
 	.menu-item {
 		width: 100%;
-
 	}
 	
 }
@@ -267,10 +266,8 @@ height: auto;
 	  flex-grow: 1 1;
 	  flex-shrink: 1 1;
 	  flex-basis: 1249px;
-	  justify-content: center;
-	  
-  }
-  
+	  justify-content: center;  
+  }  
   .left-block {
  margin-top: 77px;
  padding-left: 150px;
@@ -279,7 +276,10 @@ height: auto;
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
- 
+ word-break: break-word;
+ min-width: 350px;
+ max-width: 539px;
+ height: auto;
   }
   .head2 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -288,24 +288,22 @@ height: auto;
 	line-height: 55px;
 	text-transform: uppercase;
 	color: #585858;
-	width: 539px;
+	word-break: break-word;
+	display: flex;
   }
   .twop {
 	margin-bottom: 80px;
 	font-size: 16px;
-	width: 539px;
-	height: 73px;
-	/* margin-left: 150px; */
 	line-height: 28px;
+	word-break: break-word;
+	display: flex;
   }
   .link-input {
-	/* margin-top: 64px; */
 	width: 227px;
 	height: 55px;
 	border: 2px solid #FF0000;
 	background-color: rgba(0, 0, 0, 0.0001);
 	text-align: center;
-	/* margin-left: 150px; */
 	justify-content: center;
 	align-items: center;
 	vertical-align: center;
@@ -330,11 +328,38 @@ flex-grow: 1 1 1 1;
 flex-shrink: 1 1 1 1;
 flex-basis: 640px;
 }
-/* @media screen and (max-width: 900px) {
-
+@media screen and (max-width: 900px) {
+	.left-block {
+ margin-top: 70px;
+ max-width: 100%;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-wrap: wrap;
+ word-break: break-word;
+ min-width: 350px;
+ height: auto;
+ margin-left: 1vw;
+ margin-right: 1vw; 
+ padding-left: 1vw;
 }
-	
-} */
+ }
+@media screen and (max-width: 900px) {
+ .right-block {
+	margin-top: 70px;
+	max-width: 100vw;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	word-break: break-word;
+	min-width: 350px;
+	height: auto;
+	margin-left: 1vw;
+	margin-right: 1vw; 
+	padding-left: 1vw;
+ } 
+}
   .h3-block2 {
 font-size: 23px;
 color: #000000;
@@ -407,7 +432,6 @@ flex-wrap: wrap;
 		flex-wrap: wrap;
 		padding: 10px;
 		width: 300px;
-		
 	}
 	.Animation::before {
 	content: url('../images/service-4.png');
@@ -417,12 +441,17 @@ flex-wrap: wrap;
 	margin-top: -30px;
 	padding-top: 30px;
 	}
-  
   .services-hr {
 	  width: 1251px;
 	  background-color: #ECECEC;
 	  height: 5px;
   }
+  @media screen and (max-width: 900px) { 
+	  .services-hr {
+		  min-width: 350px;
+		  width: 100vw;
+	  }
+	}
   
 
 
@@ -613,5 +642,24 @@ margin-top: -217px;
     text-align: center;
 }
 .form-email {
+
+}
+
+
+/* 
+ШЕСТОЙ БЛОК GET IN TOUCH */
+.block6-in-touch {
+
+}
+.block6-text {
+
+}
+.block6-form {
+
+}
+.left-form {
+
+}
+.right-box-black {
 
 }
