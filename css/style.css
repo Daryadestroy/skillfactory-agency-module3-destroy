@@ -267,7 +267,15 @@ height: auto;
 	  flex-shrink: 1 1;
 	  flex-basis: 1249px;
 	  justify-content: center;  
-  }  
+  }
+  @media screen and (max-width: 1249px)   {
+	.block-services {
+		justify-content: center;  
+		text-align: center;
+		margin-left: 1vw;
+        margin-right: 1vw; 
+	}
+  }
   .left-block {
  padding-left: 150px;
  justify-content: center;
@@ -344,7 +352,7 @@ flex-basis: 640px;
  padding-left: 1vw;
 }
  }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1249px) {
  .right-block {
 	margin-top: 70px;
 	max-width: 100vw;
@@ -449,7 +457,7 @@ flex-wrap: wrap;
   @media screen and (max-width: 1249px) { 
 	  .services-hr {
 		  min-width: 350px;
-		  width: 100vw;
+		  width: 80vw;
 	  }
 	}
   
