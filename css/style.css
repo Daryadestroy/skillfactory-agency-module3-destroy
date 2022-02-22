@@ -64,6 +64,13 @@ header {
 	.header-menu {
 		width: 100%;
 		flex-wrap: wrap;
+	}	
+}
+@media screen and (max-width: 500px) {
+	.header-menu {
+		flex-direction: column;
+		max-width: 98vw;
+		padding: 0 1vw;
 	}
 }
 .header-menu {
@@ -76,7 +83,7 @@ header {
 } 
 @media screen and (max-width: 350px){
 	.menu-item {
-		width: 100%;
+		width: 98%;
 	}
 	
 }
@@ -192,7 +199,7 @@ header {
 	.word,
 	.text {
 		word-break: break-word;
-		width: 100%;
+		max-width: 98vw;
 		flex-wrap: wrap;
 		margin: 1vw;
 	}
@@ -274,6 +281,7 @@ height: auto;
 		text-align: center;
 		margin-left: 1vw;
         margin-right: 1vw; 
+		max-width: 98vw;
 	}
   }
   .left-block {
@@ -339,7 +347,7 @@ flex-basis: 640px;
 @media screen and (max-width: 900px) {
 	.left-block {
  margin-top: 70px;
- max-width: 100%;
+ max-width: 97%;
  align-items: center;
  justify-content: center;
  display: flex;
@@ -355,7 +363,7 @@ flex-basis: 640px;
 @media screen and (max-width: 1249px) {
  .right-block {
 	margin-top: 70px;
-	max-width: 100vw;
+	max-width: 97vw;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -487,7 +495,7 @@ word-break: break-word;
 		margin-top: 52px;
 		margin-left: 1vw;
 		margin-right: 1vw;
-		max-width: 100vw;
+		max-width: 98vw;
 		min-width: 350px;	
 	}
 }
@@ -502,7 +510,7 @@ word-break: break-word;
 margin-top: 52px;
 margin-left: 1vw;
 margin-right: 1vw;
-max-width: 100vw;
+max-width: 98vw;
 min-width: 350px;
 	}
 }
@@ -548,7 +556,7 @@ margin-top: 86px;
 		margin-left: 1vw;
 		margin-right: 1vw;
 		padding-right: 20px;
-		max-width: 100vw;
+		max-width: 95vw;
 		display: flex;
         flex-wrap: wrap;
 		align-items: center;
@@ -602,7 +610,7 @@ flex-basis: 1249px;
 		flex-wrap: wrap;
 		margin-top: 20px;	
 		margin-left: 20px;
-		max-width: 100vw;
+		max-width: 95vw;
 		justify-content: center;	
 	}
 }
@@ -628,7 +636,7 @@ word-break: break-word;
 @media screen and (max-width: 900px) {
 	.MEET-OUR-TEAM {
 		margin-top: 80px;
-		max-width: 100vw;
+		max-width: 98vw;
 		margin-left: 1vw;
 		margin-right: 1vw;
 		justify-content: center;
@@ -674,7 +682,7 @@ flex-direction: row;
 		margin-top: 30px;
 		margin-left: 1vw;
 		margin-right: 1vw;
-		max-width: 100vw;
+		max-width: 98vw;
 		justify-content: center;
 		text-align: center;
 		/* margin-bottom: 320px; */
@@ -775,7 +783,7 @@ flex-basis: 650px;
 	text-align: center;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	max-width: 100vw;
+	max-width: 98vw;
 	}
 }
 .p-email {
@@ -789,8 +797,13 @@ flex-basis: 650px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 20px;
+}
+@media screen and (max-width: 900px)  {
+	.text-email {
+		min-width: 350px;
+		max-width: 98vw;
 
-
+	}
 }
 .text-email {
 width: 524px;
@@ -816,7 +829,7 @@ font-weight: bold;
 		padding-top: 60px;
 		margin-left: 1vw;
 		margin-right: 1vw;
-		max-width: 100vw;
+		max-width: 98vw;
 		flex-wrap: wrap;
 		justify-content: center;
 		text-align: center;
@@ -846,7 +859,7 @@ font-weight: bold;
 	.block6-text {
 		margin-left: 1vw;
 		margin-right: 1vw;
-		max-width: 100vw;
+		max-width: 98vw;
 		display: flex;
 		justify-content: center;
 
@@ -897,7 +910,7 @@ padding-left: 0;
 	.block6-form {
 		margin-left: 1vw;
 		margin-right: 1vw;
-		max-width: 100vw;
+		max-width: 98vw;
 		display: flex;
 		justify-content: center;
 		text-align: center;
@@ -913,7 +926,7 @@ padding-left: 0;
 	.text-form,
 	.submit-form {
 		min-width: 350px;
-		max-width: 100vw;
+		max-width: 98vw;
 		min-height: 70px;
 		margin-bottom: 20px;
 		margin-left: 1vw;
@@ -983,7 +996,7 @@ border: #FF2D2D;
 }
 @media screen and (max-width: 1249px) {
 	.right-box-black {
-		max-width: 100vw;
+		max-width: 98vw;
 		padding: auto;
 		text-align: center;
 		justify-content: center;
@@ -1030,7 +1043,7 @@ line-height: 50px;
 }
 @media screen and (max-width: 1249px) {
 	.black-footer {
-		max-width: 100vw;
+		max-width: 89vw;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -1059,7 +1072,7 @@ line-height: 26px;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-@media screen and (max-width: 1249px)  {
+@media screen and (max-width: 1400px)  {
 	.right-footer {
 		justify-content: center;
 		flex-wrap: wrap;
